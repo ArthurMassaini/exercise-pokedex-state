@@ -22,7 +22,7 @@ class Pokemon extends React.Component {
 }
 
 Pokemon.propTypes = {
-  pokemons: PropTypes.shape({
+  data: PropTypes.shape({
     id: PropTypes.number,
     name: PropTypes.string,
     type: PropTypes.string,
